@@ -10,7 +10,7 @@ Setup instructions
   - Execute main.
 
 How to run script
-Currently script browser is running "headless" meaning the browser wont actually be displayed but will run in background.
+ Headless is set to false so the browser will pop up to show it's working.
   - cd into abn-lookup dir containing both abn_lookup.py and main.py
   - call main with "python main.py" in terminal.
   - You will be prompted to enter an ABN (can also enter a business name).
