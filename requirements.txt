@@ -1,0 +1,25 @@
+Requirements that were met
+
+
+- The program accepts a string via command line when executed(enhancement 1).
+- The program uses playwright.
+- After receiving a string the ABN lookup site is navigated to.
+- It performs a search using the string, whether it is a business name or an ABN.
+- Extracts Entity name, ABN status and Entity type.
+- The programs saves extracted data as a JSON file.
+- Handles invalid ABN, both if website considers it invalid or abn entered in terminal is too long.
+- The structure of the project is as requested: abn-lookup/
+							main.py
+							abn_lookup.py
+							requirements.txt
+							README.md
+Enhancement 1: support searching by business name
+- business name searches are accepted.
+- Always takes the top result and extracts that data.
+- Error from "no matching record is handled
+
+Enhancement 2: Capture a screenshot of results page and save to a dir.
+- captures screenshot of the business's details page for further investigation.
+
+
+
